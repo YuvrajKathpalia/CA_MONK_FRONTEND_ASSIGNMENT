@@ -17,7 +17,7 @@ This is an interactive web application that helps users practice constructing se
   - Final score out of 10
 
 ## Demo
-[Live Demo](LINK..)
+[Live Demo](https://ca-monk-frontend-assignment.vercel.app/)
 
 ## Tech Stack
 - **Frontend**: React with TypeScript
