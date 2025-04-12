@@ -8,7 +8,7 @@ interface TimerProps {
 
 const Timer: React.FC<TimerProps> = ({ seconds, onTimeUp, isActive }) => {
   const [timeLeft, setTimeLeft] = useState(seconds);
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const timerRef = useRef<number | null>(null);
   
 
   useEffect(() => {
