@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Question as QuestionType, QuestionResponse, UserAnswer } from './types';
 import Question from './components/Question';
 import Feedback from './components/Feedback';
